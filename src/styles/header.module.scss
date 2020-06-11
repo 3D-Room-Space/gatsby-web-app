@@ -1,7 +1,6 @@
 
 .header {
   padding: 1rem 0 0rem;
-  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -18,7 +17,7 @@
   padding-top: 1rem;
   display: flex;
   list-style-type: none;
-  margin: 0;
+  margin: auto 0;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
@@ -36,7 +35,7 @@
 }
 
 .nav-item:hover {
-  color: #550080;
+  color: #33C090;
   border: solid;
   border-radius: 5px;
 }

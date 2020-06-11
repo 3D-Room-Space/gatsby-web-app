@@ -36,75 +36,8 @@ const IndexPage = () => {
         <div>
           <div className="hero container">
             <div className="hero-child">
-              <h1 className={homeStyles.fadeInDown}>Hello.</h1>
-              <h2>I'm a {data.site.siteMetadata.position}</h2>
-              {/* <p>Need to get in touch?</p> */}
-              <Link to="/contact" ><button className="button">CONTACT ME</button></Link>
+              <h1 className={homeStyles.fadeInDown}>Coming Soon...</h1>
             </div>
-            <div className={homeStyles.picdiv}>
-              <img className={homeStyles.codepic} src={codepic} alt={"Charutha Bandaa"}></img>
-            </div>
-          </div>
-          <div className={homeStyles.skillsContainer}>
-            <h2 className="centered-heading">Core Technologies</h2>
-            <ul className={homeStyles.skillsList}>
-              {/* <li className={homeStyles.skillsItem}>
-              <img width={100} src={jslogo} alt="javascript"></img>
-              <p>Javascript</p>
-            </li> */}
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={react} alt="react"></img>
-                <p>React.js</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={node} alt="node"></img>
-                <p>Node.js</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={express} alt="express"></img>
-                <p>Express.js</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={firebase} alt="firebase"></img>
-                <p>Firebase</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={nest} alt="nest"></img>
-                <p>Nest.js</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={mongo} alt="mongo"></img>
-                <p>MongoDB</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={postgre} alt="postgre"></img>
-                <p>PostgreSQL</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={kubernetes} alt="kubernetes"></img>
-                <p>Kubernetes</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={gatsby} alt="gatsby"></img>
-                <p>Gatsby.js</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={gcp} alt="gcp"></img>
-                <p>Google Cloud</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={shopify} alt="shopify"></img>
-                <p>Shopify</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={graphqlimg} alt="graphql"></img>
-                <p>GraphQL</p>
-              </li>
-              <li className={homeStyles.skillsItem}>
-                <img width={100} src={reduximg} alt="redux"></img>
-                <p>Redux</p>
-              </li>
-            </ul>
           </div>
         </div>
       </Layout >

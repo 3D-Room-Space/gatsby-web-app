@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Charutha Devin Bandara',
-    titleTemplate: "%s · Full Stack Developer",
-    author: 'Charutha Bandara',
+    title: '3D Room Space',
+    titleTemplate: "%s · A new way to find a place to live",
+    author: 'Devin Bandara',
     position: 'Software Engineer',
-    description: 'My Javascript Portfolio',
+    description: 'A new way to find a place to live',
     url: 'https://www.cbandara.com',
     image: './../assets/profile.jpeg',
     twitterUsername: '@cbandara1010'

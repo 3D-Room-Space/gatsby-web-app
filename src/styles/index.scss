@@ -74,8 +74,11 @@ html {
 .contact-section {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
 }
 
 body {

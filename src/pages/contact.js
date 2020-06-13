@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const ContactPage = () => {
   return (
     <Layout>
-      <div className="content-div">
+      <div className="contact-section">
         <h1 className="main-title">Contact</h1>
         <div className="content-div contact-section">
           <a href="mailto:gabriel@3droomspace.com" target='blank'>

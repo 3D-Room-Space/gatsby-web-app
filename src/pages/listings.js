@@ -2,15 +2,15 @@ import React from 'react'
 import Layout from '../components/layout'
 
 
-import aboutStyles from '../styles/about.module.scss'
+import listingsStyles from '../styles/listings.module.scss'
 
-const AboutPage = () => {
+const ListingsPage = () => {
   return (
     <Layout>
       <h1 className="main-title">About Me</h1>
-      <div className={aboutStyles.aboutDiv}>
-        <div className={aboutStyles.bio} >
-          \        </div>
+      <div className={listingsStyles.aboutDiv}>
+        <div className={listingsStyles.bio} >
+        </div>
         <p>
           I am a full stack web developer with experience building RESTful API's, web applications
           and mobile applications. My main stack consists of Mongo,
@@ -27,4 +27,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default ListingsPage

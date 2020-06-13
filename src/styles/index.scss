@@ -6,6 +6,11 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+.section {
+  text-align: center;
+  margin-top: 3rem;
+}
+
 .container {
   margin: 0 auto;
   padding: 2rem 2rem;
@@ -32,17 +37,16 @@ html {
 
 .content-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   a {
     text-align: center;
   }
-  margin: 0rem auto;
-  margin-top: 3rem;
-  padding: 2rem;
+  margin: 0 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   align-items: center;
   text-align: center;
-  max-width: 900px;
 }
 
 .content-div-reverse {
@@ -716,9 +720,6 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
-  }
-  h1 {
-    font-size: 1.5rem;
   }
 }
 

@@ -1,7 +1,7 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from 'gatsby'
+// import {Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
-import Header from '../components/header'
+// import Header from '../components/header'
 
 import renting from "../assets/renting.png"
 import homeimg from "../assets/home.png"
@@ -10,14 +10,14 @@ import homeimg from "../assets/home.png"
 import homeStyles from '../styles/home.module.scss'
 
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-  query {
-    site {
-      siteMetadata{
-        position
-      }
-    }
-  }`)
+  // const data = useStaticQuery(graphql`
+  // query {
+  //   site {
+  //     siteMetadata{
+  //       position
+  //     }
+  //   }
+  // }`)
 
   return (
     <div>

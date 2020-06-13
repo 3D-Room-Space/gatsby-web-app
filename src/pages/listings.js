@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { graphql, useStaticQuery, Link } from 'gatsby'
-import arrowright from "../assets/arrow-right.svg"
+// import arrowright from "../assets/arrow-right.svg"
 
 import listingsStyles from '../styles/listings.module.scss'
 
@@ -61,7 +61,8 @@ const ListingsPage = () => {
                 <li key={edge.node.id} className={listingsStyles.blogCard}>
                   <div>
                     <div>
-                      <img src={edge.node.photo} className={listingsStyles.mainListingPhoto} />
+                      <img src={edge.node.photo} className={listingsStyles.mainListingPhoto}
+                        alt={edge.node.title} />
                     </div>
                     <div className={listingsStyles.listingInfoBox}>
                       <h4>{edge.node.title}</h4>

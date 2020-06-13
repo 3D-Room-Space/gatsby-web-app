@@ -22,7 +22,6 @@ const IndexPage = () => {
   return (
     <div>
       <Layout>
-
         <div className="content-div">
           <img width={400} src={renting} alt="3D Room Space"></img>
           <div className={homeStyles.taglineDiv} >

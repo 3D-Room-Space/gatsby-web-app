@@ -32,25 +32,21 @@ html {
 
 .content-div {
   display: flex;
-  justify-content: center;;
+  justify-content: space-between;
   flex-direction: column;
   a {
     text-align: center;
   }
-  margin: 1rem auto;
-  max-width: 780px;
+  margin: 0rem auto;
+  margin-top: 3rem;
   padding: 2rem;
   align-items: center;
+  text-align: center;
+  max-width: 900px;
 }
 
-.content-container-horizontal {
+.content-div-reverse {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  a {
-    text-align: center;
-  }
-  margin: 5rem 5rem;
 }
 
 
@@ -723,12 +719,21 @@ pre tt:after {
   }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 750px) {
   .hero {
     padding: 0rem 0rem;
   }
   h1 {
     text-align: left;
   }
+  .content-div {
+    flex-direction: row-reverse;
+  }
+
+  .content-div-reverse {
+    flex-direction: row;
+  }
+  
+ 
 }
 

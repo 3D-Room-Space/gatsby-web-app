@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import profileimg from "../assets/profile.jpeg"
+
 
 import aboutStyles from '../styles/about.module.scss'
 
@@ -10,8 +10,7 @@ const AboutPage = () => {
       <h1 className="main-title">About Me</h1>
       <div className={aboutStyles.aboutDiv}>
         <div className={aboutStyles.bio} >
-          <img width={200} src={profileimg} className={aboutStyles.profilepic} alt="Charutha Bandara"></img>
-        </div>
+          \        </div>
         <p>
           I am a full stack web developer with experience building RESTful API's, web applications
           and mobile applications. My main stack consists of Mongo,

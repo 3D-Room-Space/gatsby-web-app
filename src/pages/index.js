@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import Header from '../components/header'
 
 import renting from "../assets/renting.png"
-// import jslogo from "../assets/jslogo.png"
+import homeimg from "../assets/home.png"
 
 
 import homeStyles from '../styles/home.module.scss'
@@ -23,11 +23,18 @@ const IndexPage = () => {
     <div>
       <Layout>
         <div className="content-div">
-          <img width={400} src={renting} alt="3D Room Space"></img>
+          <img className={homeStyles.landingimg} width={400} src={renting} alt="3D Room Space"></img>
           <div className={homeStyles.taglineDiv} >
-            <h2>We connect <span className={homeStyles.greenText}>landlords</span> and <span className={homeStyles.greenText}>renters</span> with a powerful
+            <p>We connect <span className={homeStyles.greenText}>
+              landlords</span> and <span className={homeStyles.greenText}>renters</span> with a powerful
            authentication and verification platform for a
-            medium term rental marketplace</h2>
+            medium term rental marketplace</p>
+          </div>
+        </div>
+        <div className="content-div content-div-reverse">
+          <img className={homeStyles.landingimg} width={400} src={homeimg} alt="Find a new place to live without leaving home with contactless bookings"></img>
+          <div className={homeStyles.taglineDiv} >
+            <p>Find a new place to live without leaving home with contactless bookings</p>
           </div>
         </div>
       </Layout >

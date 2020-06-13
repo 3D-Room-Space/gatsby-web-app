@@ -25,7 +25,7 @@ const IndexPage = () => {
         <div className="section">
           <h2>How It Works</h2>
           <div className="content-div">
-            <img className={homeStyles.landingimg} width={400} src={renting} alt="3D Room Space"></img>
+            <img className={homeStyles.landingimg} width={350} src={renting} alt="3D Room Space"></img>
             <div className={homeStyles.taglineDiv} >
               <p>We connect <span className={homeStyles.greenText}>
                 landlords</span> and <span className={homeStyles.greenText}>renters</span> with a powerful
@@ -34,7 +34,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="content-div content-div-reverse">
-            <img className={homeStyles.landingimg} width={400} src={homeimg} alt="Find a new place to live without leaving home with contactless bookings"></img>
+            <img className={homeStyles.landingimg} width={350} src={homeimg} alt="Find a new place to live without leaving home with contactless bookings"></img>
             <div className={homeStyles.taglineDiv} >
               <p>Find a new place to live without leaving home with contactless bookings</p>
             </div>

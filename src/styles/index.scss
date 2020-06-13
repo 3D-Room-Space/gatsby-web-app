@@ -37,7 +37,7 @@ html {
 
 .content-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   a {
     text-align: center;
@@ -737,7 +737,6 @@ pre tt:after {
   .content-div-reverse {
     flex-direction: row;
   }
-  
  
 }
 

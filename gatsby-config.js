@@ -44,6 +44,24 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-source-firestore',
+      options: {
+        credential: require("./firebase.json"),
+        types: [
+          {
+            type: 'real_estate_listings',
+            collection: 'real_estate_listings',
+            map: doc => ({
+              address: doc.address,
+              photo: doc.photo,
+              title: doc.title,
+              price: doc.price,
+            }),
+          },
+        ],
+      },
+    },
   ]
 }

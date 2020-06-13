@@ -28,9 +28,10 @@
 }
 
 .landingimg {
-  margin: 0rem 2rem;
+  margin: 0rem 0rem;
+  width: 350px;
 }
-
+ 
 @keyframes bounce {
     70% { transform:translateY(0%); }
     80% { transform:translateY(-15%); }
@@ -60,8 +61,8 @@
 
   .tagline-div {
     margin-top: 0rem;
-    margin: 0rem 0rem;
-    max-width: 500px;
+    margin: 0rem 2rem;
+    max-width: 400px;
     text-align: left;
   }
 }

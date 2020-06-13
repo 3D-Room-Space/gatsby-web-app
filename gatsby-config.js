@@ -7,6 +7,7 @@ module.exports = {
     description: 'A new way to find a place to live',
     url: 'https://www.cbandara.com',
     image: './../assets/profile.jpeg',
+    defaultImage: './src/assets/logo.png',
     twitterUsername: '@cbandara1010'
   },
   /* Your site config here */

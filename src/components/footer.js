@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={footerStyles.footer}>
       <footer >
-        <p>Created by Charutha Devin Bandara, © 2020</p>
+        <p>3D Room Space Inc. © 2020</p>
       </footer>
     </div>
   )

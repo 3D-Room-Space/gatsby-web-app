@@ -10,7 +10,14 @@ const Layout = (props) => {
     <div className={layoutStyles.safearea}>
       <div className={layoutStyles.content}>
         <SEO />
-        <Header />
+        <div className={layoutStyles.heroImgDiv}>
+          <div>
+            <Header />
+            <div className="hero">
+              <h1 className={layoutStyles.logoTitle}>3D Room Space</h1>
+            </div>
+          </div>
+        </div>
         {props.children}
       </div>
       <Footer />

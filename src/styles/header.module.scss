@@ -1,16 +1,15 @@
 
 .header {
-  padding: 1rem 0 0rem;
+  padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Raleway'
 }
 
 .title {
   color: #292929;
   font-size: 1.5rem;
-  
+  text-align: center;
 }
 
 .nav-list {
@@ -24,30 +23,26 @@
 }
 
 .nav-item {
-  color: #474747;
+  color: white;
   font-size: 1.2rem;
-  margin-right: 0rem;
+  margin: 0 .5rem;
   text-decoration: none;
   padding: 5px 10px;
-  border: solid;
-  border-color: white;
-  margin-top: 50px;
+  border-style: hidden;
+
 }
 
 .nav-item:hover {
-  color: #33C090;
+  color: #3BCDC5;
   border: solid;
   border-radius: 5px;
 }
 
-.active-nav-item {
-  color: #333333;
-}
 
 @media screen and (min-width:640px) {
   .header {
     flex-direction: row;
-    padding-bottom: 3rem;
+
   }
   .title {
     font-size: 2.0rem;

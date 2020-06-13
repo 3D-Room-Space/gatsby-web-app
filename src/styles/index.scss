@@ -13,6 +13,14 @@ html {
   color: #525252;
 }
 
+.safearea {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0rem 0rem;
+}
+
 .main-title {
   margin-bottom: 3rem;
   text-align: center;
@@ -26,14 +34,27 @@ html {
   margin-bottom: 4rem;
 }
 
-.hero-child {
+.content-div {
   display: flex;
-  justify-content: center;
+  justify-content: center;;
   flex-direction: column;
   a {
     text-align: center;
   }
-  margin: 0px 1.5rem;
+  margin: 1rem auto;
+  max-width: 780px;
+  padding: 2rem;
+  align-items: center;
+}
+
+.content-container-horizontal {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  a {
+    text-align: center;
+  }
+  margin: 5rem 5rem;
 }
 
 
@@ -41,24 +62,21 @@ html {
   background-color: white;
   border-color: #3BCDC5;
   border-style: solid;
-  color: #33C090;
-  box-shadow:3px 6px #84748c;
+  color: #3BCDC5;
+  box-shadow:3px 5px #DDDDDD;
   outline: none;
   border-radius: 5px;
   padding: 7px 25px;
+  cursor: pointer;
 }
 
 .button:hover {
   background-color: #33C090;
-  box-shadow: 1px 1px #84748c;
+  box-shadow: 1px 1px #DDDDDD;
   position: relative;
   color: white;
   top: 6px;
   left: 3px;
-}
-
-.contact-button {
-  margin: 20px;
 }
 
 .contact-section {
@@ -77,6 +95,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 
@@ -118,11 +137,12 @@ a {
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
   color: black;
+  width: inherit;
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color: #33C090;
+  color: #3BCDC5;
 }
 abbr[title] {
   border-bottom: none;
@@ -165,6 +185,7 @@ sup {
 }
 img {
   border-style: none;
+  margin-bottom: 0px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -297,7 +318,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -315,10 +335,8 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
-  font-family: 'Raleway';
 }
 h2 {
-  font-family: 'Raleway';
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -351,7 +369,7 @@ h3 {
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
-  font-family: 'Raleway'
+
 }
 h4 {
   margin-left: 0;
@@ -369,7 +387,6 @@ h4 {
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
-  font-family: 'Raleway'
 }
 h5 {
   margin-left: 0;
@@ -387,7 +404,7 @@ h5 {
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
-  font-family: 'Raleway'
+
 }
 h6 {
   margin-left: 0;
@@ -405,7 +422,7 @@ h6 {
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
-  font-family: 'Raleway'
+
 }
 hgroup {
   margin-left: 0;

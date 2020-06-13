@@ -1,12 +1,29 @@
 .safearea {
   margin: 0 auto;
-  padding: 3rem 0rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
-  padding: 0rem 3rem;
+  padding: 0rem 0rem;
 }
 
 .content {
   flex-grow: 1;
+}
+
+.hero-img-div {
+  background-image: url('../assets/hero-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logo-title {
+  color: white;
+  z-index: 2;
+    position: relative;
 }
